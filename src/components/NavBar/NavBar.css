@@ -1,0 +1,119 @@
+.navbar_component{
+    width: 100vw;
+    height:60px;
+    background-color: #131A22;
+    display: flex;
+
+}
+.navbar_logo{
+    background: url('https://ik.imagekit.io/Amazonclone123/amazon-image/sprite_350x.png?updatedAt=1705607530553');
+    background-position: -4px -85px; 
+    width: 86px;
+    height: 33px;
+    margin: 18px;
+}
+.navbar_locator{
+    display: flex;
+    margin: 17px 0px;
+}
+.navbar_location{
+    color: white;
+    font-weight: bold;
+    margin-left: 3px; 
+
+}
+.navbar_locatorImage{
+    background: url('https://ik.imagekit.io/Amazonclone123/amazon-image/sprite_350x.png?updatedAt=1705607530553');
+    background-position: -69px -303px; 
+    width: 22px;
+    height: 27px;
+}
+.navbar_searchbox{
+    width: 640px;
+    height: 38px;
+    margin-top: 8px;
+
+}
+.navbar_searchcomponent{
+    display: flex;
+    margin-left: 80px;
+}
+.navbar_searchicondiv{
+    
+    
+    background-color: #FEBE68;
+    height: 42px;
+    width: 48px;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 8px;
+
+}
+.navbar_searchicon{
+    background: url('https://ik.imagekit.io/Amazonclone123/amazon-image/sprite_350x.png?updatedAt=1705607530553');
+    background-position: -7px -286px; 
+    
+    width: 28px;
+    height: 30px;
+    margin: 9px;
+}
+.navdropdown{
+    width: 60px;
+    height: 43px;
+    margin-top: 8px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #e6e5e5;
+    text-align: center;
+}
+.navbar_text{
+    color: white;
+    
+}
+.navbar_signin{
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+.navbar_returns{
+    width:80px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.navbar_cart{
+    display: flex;
+    margin-top: 17px;
+
+}
+.cart_image{
+    background: url('https://ik.imagekit.io/Amazonclone123/amazon-image/sprite_350x.png?updatedAt=1705607530553')
+    no-repeat -217px -336px;
+	width: 43px;
+	height: 30px;
+}
+.navbar_textcart{
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: -11px;
+
+}
+.cart_item{
+    font-weight: bold;
+    position: relative;
+    left: -22px;
+    top: -5px;
+    color: #f08805;
+}
+.navbar_footer{
+    display: flex;
+    width: 100vw;
+    height: 30px;
+    background-color: #22303E;
+    color: white;
+
+}
+.navbar_footer_text{
+    margin: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
