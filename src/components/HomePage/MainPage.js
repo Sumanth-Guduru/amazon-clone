@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import "./Mainpage.css";
-import AdvertisementOne from './AdvertisementOne/AdvertisementOne';
-import AdvertisementFour from './AdvertisementFour/AdvertisementFour';
+import "./Mainpage.css"
 class MainPage extends Component{
     constructor(props){
         super(props);
@@ -10,16 +8,7 @@ class MainPage extends Component{
     render(){
         return (
             <div className='mainpage'>
-                <div style={{paddingTop:"260px", "display":"flex" , "flex-wrap":"wrap"}}> 
-                    <AdvertisementOne/>
-                    <AdvertisementFour/>
-                    <AdvertisementOne/>
-                    <AdvertisementOne/>
-                    <AdvertisementFour/>
-                    <AdvertisementOne/>
-                    <AdvertisementFour/>
-                    <AdvertisementOne/>
-                </div>
+                
             </div>
          );
     }
