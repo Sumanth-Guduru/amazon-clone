@@ -1,6 +1,7 @@
 .mainpage{
     width: 100vw;
-    height: 100vh;
-    background: url("https://ik.imagekit.io/Amazonclone123/amazon-image/bigimage1.jpg?updatedAt=1705607529295");
+    height: 100%;
+    background: url("https://ik.imagekit.io/Amazonclone123/amazon-image/bigimage1.jpg?updatedAt=1705607529295") no-repeat;
     background-size: 100vw;
+    background-color: #EAEDED;
 }
